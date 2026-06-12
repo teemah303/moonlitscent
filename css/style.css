@@ -16,25 +16,57 @@ font-family:'Playfair Display',serif;
 }
 
 .navbar{
-display:flex;
-justify-content:space-between;
-align-items:center;
-padding:20px 8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    position:relative;
 }
 
-.navbar img{
-height:70px;
+.logo{
+    width:65px;
 }
 
-.navbar ul{
-display:flex;
-gap:20px;
-list-style:none;
+.menu-toggle{
+    display:none;
+    font-size:2rem;
+    color:#D4AF37;
+    cursor:pointer;
 }
 
-.navbar a{
-color:#D4AF37;
-text-decoration:none;
+.nav-links{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+.nav-links a{
+    color:#D4AF37;
+    text-decoration:none;
+}
+
+@media(max-width:768px){
+
+.menu-toggle{
+    display:block;
+}
+
+.nav-links{
+    display:none;
+    flex-direction:column;
+    position:absolute;
+    top:90px;
+    right:8%;
+    background:#111;
+    padding:20px;
+    border-radius:15px;
+    width:220px;
+}
+
+.nav-links.active{
+    display:flex;
+}
+
 }
 
 .hero{
