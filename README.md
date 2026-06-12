@@ -76,9 +76,5 @@ Building modern websites and digital solutions for businesses.
 ---
 
 © Moonlit Scent
-```
-
----
-
 
 Your GitHub portfolio is slowly becoming a collection of real-world projects, Teemah. That's exactly what future clients and employers love to see. 🌙🚀💛
