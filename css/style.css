@@ -169,10 +169,28 @@ text-align:center;
 }
 
 footer{
-text-align:center;
-padding:30px;
+    text-align:center;
+    line-height:2;
+    padding:30px;
 border-top:1px solid #333;
 }
+footer p{
+    font-size:0.95rem;
+}
+footer strong{
+
+color:#D4AF37;
+
+transition:.3s;
+
+}
+
+footer strong:hover{
+
+letter-spacing:2px;
+
+}
+
 .contact-btn{
 display:inline-block;
 margin:10px;
