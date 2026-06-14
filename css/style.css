@@ -81,6 +81,7 @@ padding:20px;
 .hero h1{
     font-size:clamp(2.5rem,7vw,5rem);
     line-height:1.1;
+    color:#D4AF37;
 }
 
 .hero p{
