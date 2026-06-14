@@ -79,32 +79,53 @@ padding:20px;
 }
 
 .hero h1{
-font-size:4rem;
-color:#D4AF37;
+    font-size:clamp(2.5rem,7vw,5rem);
+    line-height:1.1;
 }
 
 .hero p{
-margin-top:15px;
-font-size:1.1rem;
+    font-size:clamp(1rem,3vw,1.2rem);
+    max-width:600px;
+    margin:20px auto;
 }
 .about h2{
-    font-size:2.5rem;
-    color:#D4AF37;
-    margin-bottom:50px;
+
+font-size:clamp(2.5rem,6vw,4rem);
+
+margin-bottom:40px;
+
 }
 
-.btn{
-display:inline-block;
-margin-top:20px;
-padding:12px 30px;
-background:#D4AF37;
-color:black;
-text-decoration:none;
-border-radius:30px;
+.about span{
+
+color:#D4AF37;
+
 }
+.btn{
+
+padding:15px 35px;
+
+border-radius:50px;
+
+font-weight:600;
+
+transition:.3s ease;
+
+}
+
+.btn:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 0 25px rgba(212,175,55,.4);
+
+}
+
 
 section{
-padding:80px 10%;
+
+padding:100px 8%;
+
 }
 .collection h2{
     font-size:2.5rem;
@@ -113,10 +134,13 @@ padding:80px 10%;
 }
 
 .cards{
+
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
 gap:30px;
-margin-top:40px;
+
 }
 
 .card{
