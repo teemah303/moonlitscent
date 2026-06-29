@@ -62,10 +62,13 @@ moonlit-scent/
 ## 📱 Contact
 
 Customers can connect directly through:
-
-- WhatsApp
-- Instagram
-- Email
+https://wa.me/2349069040537text=Hello%20Moonlit%2C%20I%20want%20to%20place%20an%20order
+- tiktok.com/@_moonlitscent_
+  -https://www.instagram.com/_moonlitscent_?igsh=cHU4bXE5eDJqM3B5
+- nafeesaamirmuazu@gmail.com
+  
+  ## 💹 Market Position
+Moonlit operates in the growing fragrance and personal care market, targeting customers who want affordable yet premium-quality scents.
 
 ## 👩🏽‍💻 Developer
 
