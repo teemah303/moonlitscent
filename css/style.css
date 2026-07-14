@@ -502,3 +502,62 @@ margin-bottom:30px;
 color:#ddd;
 
 }
+.page-hero{
+    text-align:center;
+    padding:120px 8% 80px;
+    background:#050505;
+}
+
+.page-hero h1{
+    font-size:clamp(2.5rem,6vw,4.5rem);
+    color:#D4AF37;
+    margin-bottom:20px;
+}
+
+.page-hero p{
+    max-width:650px;
+    margin:auto;
+    color:#ddd;
+    font-size:1.1rem;
+}
+
+.categories{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.category-card{
+    background:#111;
+    border:1px solid rgba(212,175,55,.2);
+    border-radius:20px;
+    padding:35px 20px;
+    transition:.3s;
+    cursor:pointer;
+}
+
+.category-card:hover{
+    transform:translateY(-8px);
+    border-color:#D4AF37;
+    box-shadow:0 10px 25px rgba(212,175,55,.2);
+}
+
+.category-card h3{
+    color:#D4AF37;
+    margin-top:15px;
+}
+
+.products{
+    padding:80px 8%;
+}
+
+.products h2{
+    text-align:center;
+    margin-bottom:40px;
+}
