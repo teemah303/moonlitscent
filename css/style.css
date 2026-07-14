@@ -441,3 +441,64 @@ transform:translateY(0);
 }
 
 }
+.collection-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+gap:40px;
+
+margin-top:50px;
+
+}
+
+.collection-card{
+
+background:#111;
+
+padding:40px;
+
+border-radius:20px;
+
+text-align:center;
+
+transition:.4s;
+
+border:1px solid rgba(212,175,55,.15);
+
+}
+
+.collection-card:hover{
+
+transform:translateY(-12px);
+
+box-shadow:0 15px 40px rgba(212,175,55,.25);
+
+border-color:#D4AF37;
+
+}
+
+.collection-icon{
+
+font-size:4rem;
+
+margin-bottom:20px;
+
+}
+
+.collection-card h3{
+
+color:#D4AF37;
+
+margin-bottom:20px;
+
+}
+
+.collection-card p{
+
+margin-bottom:30px;
+
+color:#ddd;
+
+}
