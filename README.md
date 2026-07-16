@@ -1,12 +1,12 @@
-# 🌙 Moonlit Scent
+# 🌙 Moonlit 
 
-> Discover the Art of Luxury Fragrance
+> Discover the Art of Luxury Fragrance and elegance 
 
-A luxury fragrance portfolio website designed and developed to showcase the Moonlit Scent brand, its collections, and customer engagement channels.
+A luxury fragrance and elegant Abayas portfolio website designed and developed to showcase the Moonlit brand, its collections, and customer engagement channels.
 
 ## ✨ Overview
 
-Moonlit Scent is a modern, responsive portfolio website built to provide customers with an elegant online experience while exploring premium fragrances.
+Moonlit  is a modern, responsive portfolio website built to provide customers with an elegant online experience while exploring premium fragrances.
 
 The website highlights:
 
